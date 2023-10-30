@@ -1,0 +1,80 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "nombre": "Paula Andrea",
+      "apellido": "Echeverria Sanchez",
+      "telefono": "3102276950",
+      "correo": "paula@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "nombre": "Juan Sebastian",
+      "apellido": "Torres Jerez",
+      "telefono": "3124569785",
+      "correo": "juanito@gmail.com",
+      "password": "67890"
+    },
+    {
+      "id": 3,
+      "nombre": "Zaray Lizeth",
+      "apellido": "Perez Lopez",
+      "telefono": "3214567789",
+      "correo": "zaray@gmail.com",
+      "password": "45678"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombreProducto": "Bocadillo",
+      "descripcion": "Sabor a guayaba",
+      "precio": 1500,
+      "categoria": "Dulce",
+      "region": "Andina"
+    },
+    {
+      "id": 2,
+      "nombreProducto": "Salpicon",
+      "descripcion": "Refrescante",
+      "precio": 2500,
+      "categoria": "Bebida",
+      "region": "Caribe"
+    },
+    {
+      "id": 3,
+      "nombreProducto": "Cocada",
+      "descripcion": "Dulce y con sabor a coco",
+      "precio": 2000,
+      "categoria": "Dulce",
+      "region": "Pacifica"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "cantidad": 3,
+      "fechaEntrega": "2023-10-31",
+      "estadoPedido": "En proceso",
+      "userId": 2,
+      "productoId": 3
+    },
+    {
+      "id": 2,
+      "cantidad": 2,
+      "fechaEntrega": "2023-04-07",
+      "estadoPedido": "Entregado",
+      "userId": 1,
+      "productoId": 2
+    },
+    {
+      "id": 3,
+      "cantidad": 1,
+      "fechaEntrega": "2023-02-07",
+      "estadoPedido": "Pendiente",
+      "userId": 3,
+      "productoId": 1
+    }
+  ]
+}
